@@ -318,6 +318,39 @@ section{
     font-family: 'Brush Script MT', cursive;
     
 }
+.spotify {
+    opacity: ;
+    width: 300px;
+    right: 800px;
+    bottom: -10px;
+    border-radius: 900px;
+    margin: 20px;
+    margin-right: -15px;
+    position: relative;
+
+   
+}
+.SoundCloud {
+    width: 300px;
+    right: 200px;
+    top: 1910px;
+    right: 20px;
+    border-radius: 30px;
+    margin: px;
+    margin-left: px;
+    margin-top: px;
+    position: absolute;
+}
+.SoundCloud1 {
+    width: 350px;
+    right: 800px;
+    top: 1910px;
+    border-radius: 30px;
+    margin: px;
+    margin-left: px;
+    margin-top: px;
+    position: absolute;
+}
 
 .title {
     color: #3966a0;
@@ -344,6 +377,20 @@ section{
     background: url(https://64.media.tumblr.com/7b2d6c3e4427002829da5777381a2ec3/tumblr_ps5yz4R9c91w3kxp1o1_500.gif);
     background-attachment: fixed;
     background-size: cover;
+    
+}
+
+.BackVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+    object-fit: cover;
+    object-position: center;
+    opacity: ;
+    width: 2000px;
+    height: 1000px;
+
 }
 
 .projects1 .content{
@@ -419,12 +466,15 @@ section{
 .project-card11 {
     background-color: #fff;
     border: 3px solid rgb(0, 0, 0);
-    height: 150px;
-    width: 20em;
+    height: 400px;
+    width: 400px;
     overflow: hidden;
     border-radius: 100px;
     margin: 20px;
     margin-left: px;
+    margin-top: 40px;
+    
+    
     
     transition: 0.7s ease;
 }
@@ -445,9 +495,9 @@ section{
     
 }
 .project-image11 {
-    width: 100%;
-    height: ;
-    display: inline;
+    width: auto;
+    height: auto;
+    display: flex;
     overflow: hidden;
    
 }
@@ -571,4 +621,18 @@ section{
      
     }
 
+}
+
+
+@media (min-aspect-ratio: 16/9){
+    .BackVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (Max-aspect-ratio: 16/9){
+    .BackVideo{
+        width: auto;
+        height: 100%;
+    }
 }
